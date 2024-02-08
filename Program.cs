@@ -40,10 +40,10 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$ |      $$ |  $$ |$$$$$$$  |$$ |/$$$$$$  |/$$$$$
                         RunGuiVersion();
                         break;
                     case '2':
-                        Console.Clear(); // Clear the console before running the prompt version
+                        Console.Clear(); 
                         Console.WriteLine("Using prompt version...");
-                        RunPromptVersion(); // Call the method to run the prompt version
-                        // For now, let's just exit
+                        RunPromptVersion(); 
+                        
                         Environment.Exit(0);
                         break;
                     default:
@@ -57,16 +57,13 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$ |      $$ |  $$ |$$$$$$$  |$$ |/$$$$$$  |/$$$$$
         }
 
         static void RunGuiVersion()
-        {
-            // Assuming the GUI version is part of the same executable,
-            // we can simply start a new process with the same executable.
+        }
             System.Windows.Forms.Application.Run(new guiversion());
 
         }
 
         static void RunPromptVersion()
         {
-            // Assuming Prompt.cs is in the same namespace and contains a class named Prompt
             var prompt = new DisplayPrompt();
             prompt.Run();
         }
