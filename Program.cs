@@ -7,7 +7,7 @@ namespace VoidUnlocker
     {
         static void Main(string[] args)
         {
-            Console.Clear(); // Clear the console
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(@"
  __     __           __        __        __    __            __                      __                           
