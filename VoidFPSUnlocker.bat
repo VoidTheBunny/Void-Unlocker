@@ -11,7 +11,7 @@ if exist "%LOCALAPPDATA%\Roblox" (
         mkdir "%LOCALAPPDATA%\Roblox\ClientSettings"
     )
     timeout /t 2 >nul
-    echo {"DFIntTaskSchedulerTargetFps": 300}>"%LOCALAPPDATA%\Roblox\ClientSettings\ClientAppSettings.json"
+    echo {"DFIntTaskSchedulerTargetFps": 9999}>"%LOCALAPPDATA%\Roblox\ClientSettings\ClientAppSettings.json"
     timeout /t 2 >nul
     echo ClientAppSettings.json created successfully in Roblox\ClientSettings folder.
 ) else (
