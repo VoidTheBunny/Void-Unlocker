@@ -10,6 +10,13 @@
 - Introduced GUI Version.
 - Completely rebuilt the project from scratch using C# (previously a batch file).
 
+## Current Features:
+
+- GUI for easier usage
+- FPS Unlocker
+- Ability to modify other settings
+- Option to install a modified Roblox client (work in progress)
+
 ## How to Use:
 1. Download the executable file from the provided link.
 2. Run the executable.
