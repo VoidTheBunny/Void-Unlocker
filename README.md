@@ -3,7 +3,7 @@
 **[Download the latest release here](https://github.com/VoidTheBunny/VoidFPSUnlocker/releases)**
 
 ## How to Use:
-It's as simple as running the executable file. Choose your preferred options, and you're all set. This tool will facilitate the installation of a fresh Roblox client with your desired modifications.
+It's as simple as running the executable file. Choose your preferred options, and you're all set. This tool will facilitate the installation of a fresh Roblox client with your desired modifications. (currently working on this)
 
 ## Common Concerns:
 
