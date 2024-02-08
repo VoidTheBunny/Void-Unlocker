@@ -85,7 +85,6 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$ |      $$ |  $$ |$$$$$$$  |$$ |/$$$$$$  |/$$$$$
 
         private void ClearConsole()
         {
-            // Clear the console window
             Console.Clear();
             
         }

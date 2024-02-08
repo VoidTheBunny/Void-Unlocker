@@ -7,7 +7,7 @@ namespace VoidUnlocker
     {
         static void Main(string[] args)
         {
-            Console.Clear();
+            Console.Clear(); // Clear the console
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine(@"
  __     __           __        __        __    __            __                      __                           
@@ -57,13 +57,15 @@ $$  \ /$$//$$$$$$  |$$ |/$$$$$$$ |      $$ |  $$ |$$$$$$$  |$$ |/$$$$$$  |/$$$$$
         }
 
         static void RunGuiVersion()
-        }
+        {
+            
             System.Windows.Forms.Application.Run(new guiversion());
 
         }
 
         static void RunPromptVersion()
         {
+
             var prompt = new DisplayPrompt();
             prompt.Run();
         }
