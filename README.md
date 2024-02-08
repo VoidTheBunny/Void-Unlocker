@@ -20,3 +20,5 @@
 
 ### Q: Roblox keeps crashing. What should I do?
 **A:** If Roblox crashes, please report the issue on GitHub. If you encounter an error message, include it in your report. If no error message appears, provide as much detail as possible about the circumstances leading up to the crash. Your feedback helps in improving the tool.
+
+© 2024 VoidTheBunny. All rights reserved. No part of these files may be modified or distributed without prior written permission from VoidTheBunny.
