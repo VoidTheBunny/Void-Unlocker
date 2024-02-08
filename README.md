@@ -4,6 +4,7 @@
 
 ## note: if windows thinks its a virus thats on me, i havent really made the exe look like a real program as of 0.2.0, so youll have to disable your anti virus. just while you run it to unlock your fps or change other things. if you dont feel chill with doing that. check the source code. 
 
+ps: leave suggestions in issues with suggestions as header. also im looking for a gui disigners help.
 ## Changes in Version 0.2.1:
 - Fixed GUI
 - Added FPS Unlocker.
